@@ -1,0 +1,60 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Test & coverage ---
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+
+# --- IDE / éditeurs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs & fichiers temporaires ---
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# --- SonarQube Scanner (si utilisé localement) --
+.sonar/
+.sonar/cache/
+.sonar/temp/
+.sonar/report-task.txt
+.sonar/build-wrapper-dump/
+.sonar/output/
+.sonar/batch/
+.sonar/extensions/
+.sonar/plugins/
+.sonar/web/
+.sonar/jdbc/
+.sonar/es/
+.sonar/data/
+.sonar/conf/
+.sonar/lib/
+.sonar/licenses/
+.sonar/modules/
+.sonar/scanner/
+.sonar/.scannerwork/
+.sonar/.sonar/
+.sonar/sonar-project.properties
+.sonar/sonar-project.xml
+.sonar/sonar-project.json
+.sonar/sonar-project.yml
+.sonar/sonar-project.yaml
