@@ -6,8 +6,6 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
-  schedule:
-    - cron: '* * * * *'  # Exécute toutes les minutes (pour test)
 
 jobs:
   test:
