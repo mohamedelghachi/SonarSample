@@ -1,6 +1,6 @@
 # SonarSample
 
-![CI](https://github.com/<USER>/<REPO>/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/mohamedelghachi/SonarSample/actions/workflows/ci.yml/badge.svg)
 
 ## Description
 
