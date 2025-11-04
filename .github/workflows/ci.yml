@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'  # Exécute toutes les 5 minutes
+    - cron: '* * * * *'  # Exécute toutes les minutes (pour test)
 
 jobs:
   test:
@@ -28,4 +28,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Lancer les tests
-        run: pytest
+        run: |
+          echo "Test démarré à $(date)"
+          echo "Workflow déclenché par: ${{ github.event_name }}"
+          python -m pytest tests/ -v
